@@ -4,6 +4,7 @@
 set -o errexit
 
 bundle install
+playwright install
 bin/rails assets:precompile
 bin/rails assets:clean
 
